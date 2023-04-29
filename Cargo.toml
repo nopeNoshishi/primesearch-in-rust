@@ -1,0 +1,10 @@
+[package]
+name = "prime"
+version = "0.1.0"
+authors = ["nopeNoshishi <nopenoshishi@gmail.com>"]
+description = "This program can search prime!"
+edition = "2021"
+
+[dependencies]
+structopt = "0.3"
+num-traits = "0.2"
