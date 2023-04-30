@@ -93,8 +93,10 @@ where
 /// let candidate: Vec<usize> = [0, 3, 0, 5, 0, 7, 0, 9, 0]; // After already being Screensed out by 2.
 ///
 /// let rest_candidate: Vec<usize> = [0, 0, 0, 5, 0, 7, 0, 0, 0];
+/// 
+/// prime_serch(prime , &mut candidate)
 ///
-/// assert_eq!(prime_serch(prime ,candidate), rest_candidate);
+/// assert_eq!(candidate, rest_candidate);
 /// ```
 fn sieve(prime: usize, candidate: &mut [usize]) {
     for slot in candidate.iter_mut() {
